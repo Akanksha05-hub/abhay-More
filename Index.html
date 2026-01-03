@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ABHI MORE PHOTOGRAPHY</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif; }
+    body { background: #111; color: #fff; }
+    header {
+      background: linear-gradient(135deg, #000, #c0392b);
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 { font-size: 36px; }
+    header p { margin-top: 10px; color: #f1f1f1; }
+
+    nav {
+      background: #000;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 10px 0;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover { color: #e74c3c; }
+
+    .hero {
+      height: 100px;
+      background: url('studio.jpg') center/cover no-repeat;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    .hero h2 { font-size: 42px; background: rgba(0,0,0,0.6); padding: 10px 20px; }
+
+    section { padding: 40px 20px; max-width: 1100px; margin: auto; }
+
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: #1c1c1c;
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center;
+      box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    }
+    .card h3 { margin-bottom: 10px; color: #e74c3c; }
+
+    .contact {
+      background: #000;
+      text-align: center;
+      padding: 30px;
+      border-radius: 10px;
+    }
+    .contact p { margin: 10px 0; }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: #000;
+      margin-top: 30px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>ABHI MORE PHOTOGRAPHY</h1>
+  <p>Wedding | Cinematography | Drone Shoot | Events</p>
+</header>
+
+<nav>
+  <a href="#">Home</a>
+  <a href="#services">Services</a>
+  <a href="#about">About</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<div class="hero">
+  <h2>Capture Your Best Moments</h2>
+</div>
+
+<section id="services">
+  <h2 style="text-align:center; margin-bottom:30px;">Our Services</h2>
+  <div class="services">
+    <div class="card"><h3>Wedding Shoot</h3><p>Indoor & Outdoor photography</p></div>
+    <div class="card"><h3>Pre‑Wedding</h3><p>Creative couple shoots</p></div>
+    <div class="card"><h3>Cinematography</h3><p>Professional cinematic videos</p></div>
+    <div class="card"><h3>Drone Shoot</h3><p>Aerial photography & videography</p></div>
+    <div class="card"><h3>Baby & Fashion</h3><p>Studio & outdoor shoots</p></div>
+    <div class="card"><h3>Event Shoot</h3><p>All types of events covered</p></div>
+  </div>
+</section>
+
+<section id="about">
+  <h2 style="text-align:center; margin-bottom:20px;">About Us</h2>
+  <p style="text-align:center; max-width:800px; margin:auto;">
+    We are a professional photo & video studio providing wedding photography, cinematography,
+    drone shoots, and event coverage with best quality at affordable prices.
+  </p>
+</section>
+
+<section class="contact">
+  <h2>Book Your Order at Best Price</h2>
+  <p>📞 9322081226</p>
+
+  <a href="tel:9322081226" class="btn">Call Now</a>
+
+  <!-- 👇 WhatsApp नंबर इथे add करा -->
+  <a href="https://wa.me/9322081226" class="btn whatsapp" target="_blank">
+    WhatsApp Now
+  </a>
+</section>
+
+<footer>
+  © 2026 ABHI MORE PHOTOGRAPHY | All Rights Reserved
+</footer>
+
+</body>
+</html>
